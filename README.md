@@ -1,3 +1,5 @@
+
+
 # JsHookScript
 
 A curated collection of browser-side JavaScript hooking utilities for reverse engineering, security research, and dynamic analysis.
@@ -149,6 +151,8 @@ const hook = createCookieExampleHook({
 });
 
 hook.install();
+// ... do your analysis ...
+hook.uninstall();
 ```
 
 ### Example — Hook `fetch`
